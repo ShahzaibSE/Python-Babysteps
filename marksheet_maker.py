@@ -1,4 +1,20 @@
-marks = [87, 86, 98, 99, 80]
+marks = []
+eng_marks = int(input("Enter marks for English:"))
+marks.append(eng_marks)
+#
+chemistry_marks = int(input("Enter marks for Chemistry:"))
+marks.append(chemistry_marks)
+#
+computer_marks = int(input("Enter marks for Computer:"))
+marks.append(computer_marks)
+#
+physics_marks = int(input("Enter marks for Physics:"))
+marks.append(physics_marks)
+#
+math_marks = int(input("Enter marks for Math:"))
+marks.append(math_marks)
+#
+# marks = [87, 86, 98, 99, 80]
 total = 0
 for mark in marks:
      total += mark
@@ -9,7 +25,7 @@ percentage = total / len(marks)
 print(f"Percentage: {percentage}")
 #
 # Grading student.
-if percentage >= 90:
+if percentage >= 80:
     print("Grade: A+")
 elif percentage >= 70 and percentage <80:
     print("Grade: A")
