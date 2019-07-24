@@ -21,3 +21,16 @@ print(f"My name is {name}") #String Interpolation.
 #
 # Note: Python is dynamically typed.
 # country-of-origin = "Pakistan" #Wrong declaration.
+
+# =========================================== Variable Numbers ===================================================#
+mynum = 150
+print()
+print("=========================================== Variable Numbers =================================================")
+print("My Number")
+print(mynum + 150)
+# lets try to try to add two variables one with string and other with number.
+firstnum = "100"
+secondnum = 200
+print()
+print("lets try to try to add two variables one with string and other with number")
+# print(firstnum+secondnum) # TypeError: can only concatenate str (not "int") to str
