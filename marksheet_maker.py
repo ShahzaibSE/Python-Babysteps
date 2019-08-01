@@ -39,3 +39,9 @@ elif percentage >= 30 and percentage <40:
     print("Grade: E")
 else:
     print("Failed!")
+
+number = 12
+print(type(number))
+
+numbers_in_words = {1: "one"}
+print(type(numbers_in_words))
